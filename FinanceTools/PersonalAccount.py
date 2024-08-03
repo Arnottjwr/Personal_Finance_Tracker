@@ -15,7 +15,7 @@ class Account:
     Creates a bank account for a specific user  
     """
 
-    def __init__(self, initial_balance: float) -> None:
+    def __init__(self, initial_balance: float = 0) -> None:
         """
         Create 
         
@@ -29,7 +29,6 @@ class Account:
         self.balance += deposit_amount
         self.statement.loc[len(self.statement)] = [datetime.datetime.now().date(), datetime.datetime.now().strftime('%H:%M'), str(self.balance), '+' + str(deposit_amount)]
 
-
     def withdraw(self, withdraw_amount: float) -> None:
         """Withdraw an amount of money from the account"""
         if withdraw_amount > self.balance:
@@ -40,6 +39,9 @@ class Account:
     def return_statement(self):
         """See current bank statement"""
         return self.statement
+
+
+    
 
 
 if __name__ == '__main__':
