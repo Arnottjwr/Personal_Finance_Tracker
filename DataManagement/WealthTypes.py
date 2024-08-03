@@ -3,16 +3,16 @@ WealthTypes.py
     Script to manage wealth type classes
 """
 
-class WeathType:
+class Weath:
     pass
 
-class CurrentAccount(WeathType):
+class CurrentAccount(Weath):
     pass
 
-class SavingsAccount(WeathType):
+class SavingsAccount(Weath):
     pass
 
-class ISA(WeathType):
+class ISA(Weath):
     pass 
 
 
