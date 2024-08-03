@@ -1,4 +1,3 @@
 # Personal_Finance_Tracker
 
-## Plan 
-- This is where the inital plan goes
+Readme for the personal finance tracker app

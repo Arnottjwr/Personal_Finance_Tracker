@@ -5,9 +5,8 @@ PersonalAcount.py
 
 # Nonstandard Imports 
 import datetime
-import numpy as np 
+import numpy as np
 import pandas as pd 
-
 
 
 class Account:
@@ -41,9 +40,3 @@ class Account:
         return self.statement
 
 
-    
-
-
-if __name__ == '__main__':
-    account_1 = Account(10)
-    account_1.deposit(10)

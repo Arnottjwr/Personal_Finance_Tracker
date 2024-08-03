@@ -1,4 +1,0 @@
-"""
-Script to process statement
-
-"""
